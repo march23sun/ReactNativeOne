@@ -1,0 +1,77 @@
+{
+  "res": 0,
+  "data": [
+    {
+      "id": "111",
+      "title": "\u6628\u65e5\u91cd\u73b0",
+      "cover": "http:\/\/image.wufazhuce.com\/FgeoLpcgvKMRoA3e_jYjEuiv5CNu",
+      "bottom_text": "\u5728\u8fd1\u672a\u6765\u65f6\u4ee3\uff0c\u4eba\u7684\u8bb0\u5fc6\u53ef\u4ee5\u8f6c\u8ba9\u51fa\u552e\uff0c\u5e76\u6210\u4e3a\u4e00\u4e2a\u5e9e\u5927\u7684\u4ea7\u4e1a\u2026\u2026",
+      "bgcolor": "#4d4d4d",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/111"
+    },
+    {
+      "id": "110",
+      "title": "\u5f53\u4f60\u662f\u4f5c\u5bb6\u7684\u59bb\u5b50\u2026",
+      "cover": "http:\/\/image.wufazhuce.com\/FlwpjisEiDQShe9zPKNKyGSxOk6W",
+      "bottom_text": "\u5f53\u4f5c\u5bb6\u7684\u59bb\u5b50\u662f\u79cd\u600e\u6837\u7684\u4f53\u9a8c\uff1f",
+      "bgcolor": "#898989",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/110"
+    },
+    {
+      "id": "109",
+      "title": "\u5ba0\u7269\u662f\u4eba\u7c7b\u6700\u597d\u7684\u6696\u624b\u5668",
+      "cover": "http:\/\/image.wufazhuce.com\/FkZo1hcTnPgGwnnVF1iLWHBBe0Dq",
+      "bottom_text": "\u201c\u6c34\u6765\u6211\u5728\u6c34\u4e2d\u7b49\u4f60\uff0c\u706b\u6765\u6211\u5728\u7070\u70ec\u4e2d\u7b49\u4f60\u3002\u201d",
+      "bgcolor": "#3a2722",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/109"
+    },
+    {
+      "id": "106",
+      "title": "\u4e0d\u6b63\u5e38\u4eba\u7c7b\u75c7\u5019\u7fa4",
+      "cover": "http:\/\/image.wufazhuce.com\/FkkHaZO6iMT1tF9gtIv4_l7sr8dQ",
+      "bottom_text": " \u5c31\u7b97\u65f6\u7a7a\u5012\u8f6c\u91cd\u65b0\u9009\u62e9\uff0c\u4e5f\u60f3\u8981\u8fc7\u300c\u4e0d\u6b63\u5e38\u300d\u7684\u4eba\u751f\u3002",
+      "bgcolor": "#000000",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/106"
+    },
+    {
+      "id": "107",
+      "title": "\u73a9\u5bb6",
+      "cover": "http:\/\/image.wufazhuce.com\/FnzElQ_wfubRltil-Ij4Isu3eMRZ",
+      "bottom_text": "\u7f51\u7edc\u65f6\u4ee3\uff0c\u6839\u672c\u5c31\u6ca1\u6709\u4ec0\u4e48\u662f\u771f\u6b63\u7684\u79d8\u5bc6\u3002",
+      "bgcolor": "#212f2f",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/107"
+    },
+    {
+      "id": "108",
+      "title": "\u90a3\u5973\u5b69\u5bf9\u6211\u8bf4\uff0c\u8bf4\u6211\u662f\u4e00\u4e2a\u5c0f\u5077",
+      "cover": "http:\/\/image.wufazhuce.com\/Fq9bcERG1d5NahszZTeOyfV5HvfO",
+      "bottom_text": "\u201c\u6211\u53ea\u4e0d\u8fc7\u662f\u4e00\u4e2a\u5973\u5b69\uff0c\u7ad9\u5728\u5fc3\u7231\u7684\u7537\u5b69\u7684\u9762\u524d\uff0c\u9700\u8981\u4ed6\u7231\u6211\u7684\u4e00\u4e2a\u5973\u5b69\u3002\u201d",
+      "bgcolor": "#0d223d",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/108"
+    },
+    {
+      "id": "105",
+      "title": "\u8981\u505a\u4f60\u81ea\u5df1\uff0c\u56e0\u4e3a\u6ca1\u4eba\u60f3\u505a\u4f60",
+      "cover": "http:\/\/image.wufazhuce.com\/FgA7ELCwoaD7NBJcpyKsF_jxdIS9",
+      "bottom_text": "\u201c\u6211\u8981\u6709\u80fd\u505a\u6211\u81ea\u5df1\u7684\u81ea\u7531\uff0c \u548c\u6562\u505a\u6211\u81ea\u5df1\u7684\u80c6\u91cf\u3002\u201d",
+      "bgcolor": "#fc553b",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/105"
+    },
+    {
+      "id": "104",
+      "title": "\u6211\u7684\u68a6\u60f3\u5c31\u662f\u6210\u4e3a\u4f60\u7684\u68a6\u60f3",
+      "cover": "http:\/\/image.wufazhuce.com\/FtKBspBPdeI80gd-KZHX3a1YYlVx",
+      "bottom_text": "\u68a6\u60f3\u8fd8\u662f\u8981\u6709\u7684\uff0c\u4e07\u4e00\u5b9e\u73b0\u4e86\u5462\u3002",
+      "bgcolor": "#1b4692",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/104"
+    },
+    {
+      "id": "97",
+      "title": "\u6bdb\u5229\u6587\u7ae0\u7cbe\u9009",
+      "cover": "http:\/\/image.wufazhuce.com\/FuMLnn4LaZq25fR5St3QQX4gfPYI",
+      "bottom_text": "\u5931\u8d25\u8005\u624d\u4e0d\u7ba1\u522b\u7684\u6709\u591a\u91cd\u8981\u3002\u4efb\u6027\u4e00\u56de\uff0c\u4e0d\u7136\u4e00\u8f88\u5b50\u90fd\u618b\u5c48\u3002",
+      "bgcolor": "#2e2e2e",
+      "pv_url": "http:\/\/v3.wufazhuce.com:8000\/api\/reading\/carousel\/pv\/97"
+    }
+  ]
+}
