@@ -7,6 +7,7 @@ import {
   StyleSheet
 } from 'react-native';
 import ScrollableTabView from 'react-native-scrollable-tab-view';
+
 import PictureContainer from './pictureContainer';
 import ReadingContainer from './readingContainer';
 import MusicContainer from './musicContainer';

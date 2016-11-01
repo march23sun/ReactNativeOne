@@ -26,27 +26,7 @@ const {MediaPlayer} = NativeModules;
 
 const windowWidth = Dimensions.get('window').width;
 
-const styles = StyleSheet.create({
-  authorName: {
-    marginTop: 30
-  },
-  rowContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginTop: 20
-  },
-  imageContainer: {
-    flex: 1,
-    alignItems: 'center'
-  },
-  image: {
-    height: 60,
-  },
-  bottomTouchableOpacity: {
-    backgroundColor: '#00000088',
-    flex: 1
-  }
-});
+
 
 class MusicControlModal extends React.Component {
 
@@ -198,5 +178,25 @@ const mapStateToProps = state => {
     isLoadingMedia: media.isLoadingMedia
   };
 };
-
+const styles = StyleSheet.create({
+  authorName: {
+    marginTop: 30
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 20
+  },
+  imageContainer: {
+    flex: 1,
+    alignItems: 'center'
+  },
+  image: {
+    height: 60,
+  },
+  bottomTouchableOpacity: {
+    backgroundColor: '#00000088',
+    flex: 1
+  }
+});
 export default connect(mapStateToProps, MediaActions)(MusicControlModal);

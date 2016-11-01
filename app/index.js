@@ -13,6 +13,7 @@ import {
   Platform
 } from 'react-native';
 import {getRouteMap, registerNavigator} from './route';
+
 import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import createLogger from 'redux-logger';
@@ -25,26 +26,7 @@ import * as Wechat from 'react-native-wechat';
 
 let lastClickTime = 0;
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
-  navigator: {
-    flex: 1,
-    backgroundColor: 'white'
-  },
-  errorView: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: 'white'
-  },
-  errorText: {
-    color: 'red',
-    fontSize: 16
-  }
 
-});
 
 class App extends React.Component {
 
@@ -135,6 +117,26 @@ class App extends React.Component {
     return true;
   }
 }
+const styles = StyleSheet.create({
+  container: {
+    flex: 1
+  },
+  navigator: {
+    flex: 1,
+    backgroundColor: 'white'
+  },
+  errorView: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white'
+  },
+  errorText: {
+    color: 'red',
+    fontSize: 16
+  }
+
+});
 
 export default function globalInit() {
   var loggerMiddleware = createLogger();

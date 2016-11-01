@@ -27,59 +27,6 @@ import LoadingManagerView from './loadingManagerView';
 import CommentListView from './commentListView';
 import CommentType from '../constant/commentType';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  rowContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 10,
-  },
-  avatarImage: {
-    height: 50,
-    width: 50,
-    borderRadius: 25
-  },
-  authorInfo: {
-    marginLeft: 10
-  },
-  authorName: {
-    color: commonStyle.LIGHT_BLUE_COLOR
-  },
-  timeText: {
-    color: commonStyle.TEXT_GRAY_COLOR,
-    marginTop: 5
-  },
-  titleText: {
-    marginVertical: 10,
-    color: commonStyle.TEXT_COLOR,
-    fontSize: 20,
-    padding: 10,
-  },
-  contentText: {
-    color: commonStyle.TEXT_COLOR,
-    fontSize: 16,
-    padding: 10,
-  },
-  smallIcon: {
-    width: 30,
-    height: 30
-  },
-  grayViewContainer: {
-    paddingHorizontal: 10,
-    paddingVertical: 10,
-    backgroundColor: commonStyle.LIGHT_GRAY_COLOR,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between'
-  },
-  lightGrayText: {
-    color: commonStyle.TEXT_GRAY_COLOR,
-    fontSize: 14
-  },
-});
 
 class ReadingEssayDetail extends BaseComponent {
 
@@ -259,6 +206,59 @@ const mapDispatchToProps = dispatch => {
     startPlayMedia: bindActionCreators(startPlayMedia, dispatch),
   };
 };
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 10,
+  },
+  avatarImage: {
+    height: 50,
+    width: 50,
+    borderRadius: 25
+  },
+  authorInfo: {
+    marginLeft: 10
+  },
+  authorName: {
+    color: commonStyle.LIGHT_BLUE_COLOR
+  },
+  timeText: {
+    color: commonStyle.TEXT_GRAY_COLOR,
+    marginTop: 5
+  },
+  titleText: {
+    marginVertical: 10,
+    color: commonStyle.TEXT_COLOR,
+    fontSize: 20,
+    padding: 10,
+  },
+  contentText: {
+    color: commonStyle.TEXT_COLOR,
+    fontSize: 16,
+    padding: 10,
+  },
+  smallIcon: {
+    width: 30,
+    height: 30
+  },
+  grayViewContainer: {
+    paddingHorizontal: 10,
+    paddingVertical: 10,
+    backgroundColor: commonStyle.LIGHT_GRAY_COLOR,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between'
+  },
+  lightGrayText: {
+    color: commonStyle.TEXT_GRAY_COLOR,
+    fontSize: 14
+  },
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(ReadingEssayDetail);
 

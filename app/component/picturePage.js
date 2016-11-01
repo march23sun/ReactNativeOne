@@ -19,57 +19,7 @@ import BaseComponent from '../base/baseComponent';
 import {getNavigator} from '../route';
 import {getPictureDetail} from '../api/picture';
 
-const styles = StyleSheet.create({
-  scrollView: {
-    flex: 1,
-    padding: 10
-  },
-  topViewContainer: {
-    //怎么实现阴影,模糊边框
-    borderWidth: 1,
-    borderColor: commonStyle.GRAY_COLOR,
-    padding: 10
-  },
-  contentImage: {
-    height: 250
-  },
-  pictureInfoContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between'
-  },
-  pictureInfoText: {
-    fontSize: 12,
-    color: commonStyle.TEXT_GRAY_COLOR
-  },
-  content: {
-    marginTop: 20,
-    fontSize: 15,
-    color: commonStyle.TEXT_COLOR
-  },
-  date: {
-    marginTop: 30,
-    fontSize: 14,
-    color: commonStyle.TEXT_GRAY_COLOR,
-    alignSelf: 'flex-end'
-  },
-  bottomViewContainer: {
-    flexDirection: 'row',
-    marginVertical: 5,
-    alignItems: 'center',
-    justifyContent: 'space-between'
-  },
-  smallIcon: {
-    width: 45,
-    height: 45,
-  },
-  bottomText: {
-    fontSize: 14,
-    color: commonStyle.TEXT_GRAY_COLOR
-  },
-  shareImage: {
-    marginLeft: 10
-  }
-});
+
 
 class PicturePage extends BaseComponent {
 
@@ -202,7 +152,57 @@ PicturePage.propTypes = {
   data: React.PropTypes.object,
   id: React.PropTypes.number
 };
-
+const styles = StyleSheet.create({
+  scrollView: {
+    flex: 1,
+    padding: 10
+  },
+  topViewContainer: {
+    //怎么实现阴影,模糊边框
+    borderWidth: 1,
+    borderColor: commonStyle.GRAY_COLOR,
+    padding: 10
+  },
+  contentImage: {
+    height: 250
+  },
+  pictureInfoContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+  pictureInfoText: {
+    fontSize: 12,
+    color: commonStyle.TEXT_GRAY_COLOR
+  },
+  content: {
+    marginTop: 20,
+    fontSize: 15,
+    color: commonStyle.TEXT_COLOR
+  },
+  date: {
+    marginTop: 30,
+    fontSize: 14,
+    color: commonStyle.TEXT_GRAY_COLOR,
+    alignSelf: 'flex-end'
+  },
+  bottomViewContainer: {
+    flexDirection: 'row',
+    marginVertical: 5,
+    alignItems: 'center',
+    justifyContent: 'space-between'
+  },
+  smallIcon: {
+    width: 45,
+    height: 45,
+  },
+  bottomText: {
+    fontSize: 14,
+    color: commonStyle.TEXT_GRAY_COLOR
+  },
+  shareImage: {
+    marginLeft: 10
+  }
+});
 export default PicturePage;
 
 

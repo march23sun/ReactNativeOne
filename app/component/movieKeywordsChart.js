@@ -11,29 +11,6 @@ import {
 } from 'react-native';
 import commonStyle from '../style/commonStyle';
 
-const styles = StyleSheet.create({
-  outsideContainer: {
-    margin: 2,
-    borderWidth: 2,
-    borderColor: commonStyle.LIGHT_BLUE_COLOR,
-  },
-  innerContainer: {
-    margin: 3,
-    flexDirection: 'column',
-    borderWidth: 1,
-    borderColor: commonStyle.LIGHT_BLUE_COLOR
-  },
-  splitLine: {
-    width: 1,
-    backgroundColor: commonStyle.LIGHT_BLUE_COLOR
-  },
-  text: {
-    color: commonStyle.LIGHT_BLUE_COLOR,
-    fontSize: 14,
-    marginVertical: 10
-  }
-
-});
 
 
 class MovieKeywordsChart extends React.Component {
@@ -63,5 +40,28 @@ class MovieKeywordsChart extends React.Component {
 MovieKeywordsChart.propTypes = {
   keywords: PropTypes.array.isRequired
 };
+const styles = StyleSheet.create({
+  outsideContainer: {
+    margin: 2,
+    borderWidth: 2,
+    borderColor: commonStyle.LIGHT_BLUE_COLOR,
+  },
+  innerContainer: {
+    margin: 3,
+    flexDirection: 'column',
+    borderWidth: 1,
+    borderColor: commonStyle.LIGHT_BLUE_COLOR
+  },
+  splitLine: {
+    width: 1,
+    backgroundColor: commonStyle.LIGHT_BLUE_COLOR
+  },
+  text: {
+    color: commonStyle.LIGHT_BLUE_COLOR,
+    fontSize: 14,
+    marginVertical: 10
+  }
+
+});
 
 export default MovieKeywordsChart;

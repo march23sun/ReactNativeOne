@@ -12,24 +12,6 @@ import {
 } from 'react-native';
 import commonStyle from '../style/commonStyle';
 
-const styles = StyleSheet.create({
-  container: {
-    height: 50,
-    flexDirection: 'row',
-    alignItems: 'center',
-    borderTopWidth: 1,
-    borderTopColor: commonStyle.GRAY_COLOR
-  },
-  touchableContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  image: {
-    width: 50,
-    height: 50
-  }
-});
 
 class TabBar extends React.Component {
 
@@ -70,6 +52,24 @@ TabBar.propTypes = {
   activeTab: React.PropTypes.number,
   tabs: React.PropTypes.array
 };
+const styles = StyleSheet.create({
+  container: {
+    height: 50,
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderTopWidth: 1,
+    borderTopColor: commonStyle.GRAY_COLOR
+  },
+  touchableContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  image: {
+    width: 50,
+    height: 50
+  }
+});
 
 export default TabBar;
 

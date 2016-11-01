@@ -18,30 +18,7 @@ import {getNavigator} from '../route';
 import commonStyle from '../style/commonStyle';
 import {getDateStrListBeforeNow} from '../util/dateUtil';
 
-const styles = StyleSheet.create({
-  listView: {
-    flex: 1,
-  },
-  itemView: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    margin: 15
-  },
-  itemText: {
-    color: commonStyle.TEXT_GRAY_COLOR,
-    fontSize: 18
-  },
-  itemImage: {
-    width: 20,
-    height: 20,
-  },
-  separatorLine: {
-    height: 1,
-    backgroundColor: commonStyle.GRAY_COLOR,
-    marginHorizontal: 15
-  }
-});
+
 
 class BeforeMonthList extends BaseComponent {
 
@@ -121,5 +98,28 @@ BeforeMonthList.propTypes = {
   beginYear: PropTypes.number.isRequired,
   onPress: PropTypes.func.isRequired,
 };
-
+const styles = StyleSheet.create({
+  listView: {
+    flex: 1,
+  },
+  itemView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    margin: 15
+  },
+  itemText: {
+    color: commonStyle.TEXT_GRAY_COLOR,
+    fontSize: 18
+  },
+  itemImage: {
+    width: 20,
+    height: 20,
+  },
+  separatorLine: {
+    height: 1,
+    backgroundColor: commonStyle.GRAY_COLOR,
+    marginHorizontal: 15
+  }
+});
 export default BeforeMonthList;

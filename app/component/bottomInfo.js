@@ -15,33 +15,7 @@ import commonStyle from '../style/commonStyle';
 
 const borderWidth = 1 / PixelRatio.get();
 
-const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    height: 50,
-    borderTopWidth: borderWidth,
-    borderBottomWidth: borderWidth,
-    borderTopColor: commonStyle.GRAY_COLOR,
-    borderBottomColor: commonStyle.GRAY_COLOR
-  },
-  touchableOpacity: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  text: {
-    color: commonStyle.TEXT_GRAY_COLOR,
-  },
-  splitView: {
-    backgroundColor: commonStyle.GRAY_COLOR,
-    width: borderWidth,
-    marginVertical: 10
-  },
-  image: {
-    width: 40,
-    height: 40,
-  }
-});
+
 
 class BottomInfo extends React.Component {
 
@@ -84,5 +58,31 @@ BottomInfo.propTypes = {
   onCommentPressed: PropTypes.func,
   onSharePressed: PropTypes.func
 };
-
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    height: 50,
+    borderTopWidth: borderWidth,
+    borderBottomWidth: borderWidth,
+    borderTopColor: commonStyle.GRAY_COLOR,
+    borderBottomColor: commonStyle.GRAY_COLOR
+  },
+  touchableOpacity: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  text: {
+    color: commonStyle.TEXT_GRAY_COLOR,
+  },
+  splitView: {
+    backgroundColor: commonStyle.GRAY_COLOR,
+    width: borderWidth,
+    marginVertical: 10
+  },
+  image: {
+    width: 40,
+    height: 40,
+  }
+});
 export default BottomInfo;

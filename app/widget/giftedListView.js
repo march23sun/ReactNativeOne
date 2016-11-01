@@ -13,18 +13,7 @@ import {
 } from 'react-native';
 import commonStyle from '../style/commonStyle';
 
-const styles = StyleSheet.create({
-  hasNoMoreView: {
-    justifyContent: 'center',
-    alignItems: 'center',
 
-  },
-  hasNoMoreText: {
-    color: commonStyle.LIGHT_BLUE_COLOR,
-    fontSize: 16,
-    marginVertical: 5,
-  }
-});
 
 const defaultOnEndReachedThreshold = 150;
 
@@ -103,5 +92,16 @@ GiftedListView.propTypes = {
   fetchMoreData: PropTypes.func.isRequired,
   renderHasNoMoreView: PropTypes.func
 };
+const styles = StyleSheet.create({
+  hasNoMoreView: {
+    justifyContent: 'center',
+    alignItems: 'center',
 
+  },
+  hasNoMoreText: {
+    color: commonStyle.LIGHT_BLUE_COLOR,
+    fontSize: 16,
+    marginVertical: 5,
+  }
+});
 export default GiftedListView;

@@ -1,15 +1,26 @@
+https://github.com/lipeiwei-szu/ReactNativeOne
+
+
 # 基于React-Native的高仿「ONE·一个」
+http://v3.wufazhuce.com:8000/api
+
+http://wufazhuce.com/
+
+
 
 > [「ONE·一个」](http://www.wandoujia.com/apps/one.hh.oneclient)是由韩寒监制，原《独唱团》主创成员共同制作的一款文艺生活APP
 
 >  支持设备: Android 4.1+ and iOS 8.0+
 
 ## 声明
-该APP所用到的API均由 [「ONE · 一个」](http://wufazhuce.com/)提供，[本人](https://github.com/lipeiwei-szu)采取非正常手段获取。获取跟共享的行为或许有侵犯权益的嫌疑。请您了解相关情况，并保证不侵犯[「ONE · 一个」](http://wufazhuce.com/)的利益，并遵守开源协议
+该APP所用到的API均由 [「ONE · 一个」](http://wufazhuce.com/)提供，[本人](https://github.com/lipeiwei-szu)采取非正常手段获取。
+获取跟共享的行为或许有侵犯权益的嫌疑。请您了解相关情况，并保证不侵犯[「ONE · 一个」](http://wufazhuce.com/)的利益，并遵守开源协议
 
 ## 项目描述
-1. 基于React-Native框架开发，能同时运行在Android、iOS环境下，实现80%的代码复用，GitHub地址：[https://github.com/lipeiwei-szu/ReactNativeOne](https://github.com/lipeiwei-szu/ReactNativeOne)
-2. 到目前为止，该项目均由本人独立完成，希望能有更多的小伙伴来一起完善这个项目。实现了「ONE·一个」绝大部分的功能点，涵盖了图文、阅读、音乐、电影四大版块，以下是功能列表
+1. 基于React-Native框架开发，能同时运行在Android、iOS环境下，实现80%的代码复用，
+GitHub地址：[https://github.com/lipeiwei-szu/ReactNativeOne](https://github.com/lipeiwei-szu/ReactNativeOne)
+2. 到目前为止，该项目均由本人独立完成，希望能有更多的小伙伴来一起完善这个项目。实现了「ONE·一个」绝大部分的功能点，
+涵盖了图文、阅读、音乐、电影四大版块，以下是功能列表
     + 使用ViewPager跟ListView展示图文列表、查看往期历史图文信息、点击查看大图
     + 三种系列（短篇、连载、问答）的文章阅读以及文章音频播放，查看往期文章列表
     + 音乐故事展示、音乐播放、查看历史音乐列表

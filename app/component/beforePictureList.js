@@ -27,38 +27,7 @@ const horizontalMargin = 10;
 const windowWidth = Dimensions.get('window').width;
 
 const singleItemWidth = (windowWidth - (itemsPerRow + 1) * horizontalMargin) / itemsPerRow;
-const styles = StyleSheet.create({
-  listView: {
-    flex: 1,
-    padding: horizontalMargin
-  },
-  itemContainer: {
-    width: singleItemWidth,
-    borderWidth: 1,
-    borderColor: commonStyle.GRAY_COLOR,
-    alignItems: 'center'
-  },
-  image: {
-    width: singleItemWidth,
-    height: 150
-  },
-  rowContainer: {
-    flexDirection: 'row',
-    backgroundColor: '#00000033',//#rrggbbaa
-    justifyContent: 'space-between'//space-between两边无间隔 space-around两边有间隔
-  },
-  rowText: {
-    fontSize: 12,
-    color: 'white'
-  },
-  contentText: {
-    marginVertical: 5,
-    textAlign: 'left'
-  },
-  separatorLine: {
-    height: 10
-  }
-});
+
 
 class BeforePictureList extends BaseComponent {
 
@@ -187,5 +156,36 @@ BeforePictureList.propTypes = {
   year: PropTypes.number.isRequired,
   month: PropTypes.number.isRequired,//0~11
 };
-
+const styles = StyleSheet.create({
+  listView: {
+    flex: 1,
+    padding: horizontalMargin
+  },
+  itemContainer: {
+    width: singleItemWidth,
+    borderWidth: 1,
+    borderColor: commonStyle.GRAY_COLOR,
+    alignItems: 'center'
+  },
+  image: {
+    width: singleItemWidth,
+    height: 150
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    backgroundColor: '#00000033',//#rrggbbaa
+    justifyContent: 'space-between'//space-between两边无间隔 space-around两边有间隔
+  },
+  rowText: {
+    fontSize: 12,
+    color: 'white'
+  },
+  contentText: {
+    marginVertical: 5,
+    textAlign: 'left'
+  },
+  separatorLine: {
+    height: 10
+  }
+});
 export default BeforePictureList;

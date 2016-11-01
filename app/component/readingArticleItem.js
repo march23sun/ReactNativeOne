@@ -14,30 +14,7 @@ import {
 import commonStyle from '../style/commonStyle';
 import {getNavigator} from '../route';
 
-const styles = StyleSheet.create({
-  touchableOpacity: {
-    padding: 15,//使用padding而不用margin是为了增大可按压区域
-  },
-  rowContainer: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
-    justifyContent: 'space-between'
-  },
-  titleText: {
-    color: commonStyle.TEXT_COLOR,
-    fontSize: 18,
-    flex: 1
-  },
-  text: {
-    color: commonStyle.TEXT_GRAY_COLOR,
-    fontSize: 14,
-    marginTop: 5
-  },
-  image: {
-    height: 25,
-    width: 60,
-  }
-});
+
 
 class ReadingArticleItem extends React.Component {
   render() {
@@ -94,7 +71,30 @@ class ReadingArticleItem extends React.Component {
 ReadingArticleItem.propTypes = {
   data: PropTypes.object.isRequired,
 };
-
+const styles = StyleSheet.create({
+  touchableOpacity: {
+    padding: 15,//使用padding而不用margin是为了增大可按压区域
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    justifyContent: 'space-between'
+  },
+  titleText: {
+    color: commonStyle.TEXT_COLOR,
+    fontSize: 18,
+    flex: 1
+  },
+  text: {
+    color: commonStyle.TEXT_GRAY_COLOR,
+    fontSize: 14,
+    marginTop: 5
+  },
+  image: {
+    height: 25,
+    width: 60,
+  }
+});
 export default ReadingArticleItem;
 
 const essayData = {

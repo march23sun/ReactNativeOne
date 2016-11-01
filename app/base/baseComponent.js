@@ -19,6 +19,8 @@ const styles = StyleSheet.create({
   }
 });
 
+
+//used for render navigation bar and global style
 class BaseComponent extends Component {
 
   constructor(props) {
